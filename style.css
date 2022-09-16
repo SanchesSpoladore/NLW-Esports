@@ -57,15 +57,15 @@ main {
 }
 
 main section:nth-child(1) {
-  animation: fromBottom .7s  backwards;
+  animation: fromLeft .7s  backwards;
 }
 
 main section:nth-child(2) {
-  animation: fromBottom .7s .4s backwards;
+  animation: fromLeft .7s .4s backwards;
 }
 
 main section:nth-child(3) {
-  animation: fromBottom .7s .8s backwards;
+  animation: fromLeft .7s .8s backwards;
 }
 
 section {
@@ -132,13 +132,13 @@ section ul li:hover {
   }
 }
 
-@keyframes fromBottom {
+@keyframes fromLeft {
   from {
-    transform: translateY(30px);
+    transform: translateX(-30px);
     opacity: 0;
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
