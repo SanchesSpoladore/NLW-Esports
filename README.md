@@ -1,6 +1,6 @@
 # NLW eSports
 
-![](./assets/readme.png)
+![](./.github/preview.png)
 
 > Tilha Explorer
 
@@ -8,6 +8,7 @@
 - [Sobre](#sobre)
 - [Link](#link)
 - [Tecnologias](#tecnologias)
+- [Autor](#autor)
 
 ## Sobre
 Projeto construído do evento Next Level Week da Rocketseat. 
@@ -18,3 +19,6 @@ Projeto construído do evento Next Level Week da Rocketseat.
 ## Tecnologias
 - HTML
 - CSS
+
+## Autor
+- Site - https://sanches-spoladore.netlify.app
